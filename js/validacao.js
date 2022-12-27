@@ -1,6 +1,6 @@
 const dataNascimento = document.querySelector('#nascimento')
 
-dataNascimento.addEventListener('blur,'(evento) => { validaDataNascimento(evento.target)
+dataNascimento.addEventListener('blur',(evento) => { validaDataNascimento(evento.target)
 })
 
 function validaDataNascimento(input) {
